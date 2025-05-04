@@ -80,7 +80,6 @@ export default function LandingPage() {
             {
               title: 'Smart Contracts for Transactions',
               items: [
-                'Escrow-secured payments released on delivery confirmation.',
                 'Instant product ownership transfer via smart contract.',
                 'Automated refunds and dispute resolution logic.',
               ],
@@ -93,9 +92,9 @@ export default function LandingPage() {
               ],
             },
             {
-              title: 'Payment & Wallet Integration',
+              title: 'Connect Slush Wallets',
               items: [
-                'Connect wallets like MetaMask or Sui Wallet.',
+                'Connect wallets like Slush wallet for easy transactions.',
                 'Instant payments with visible gas fees.',
                 'Supports SUI, USDT, and USDC.',
               ],
