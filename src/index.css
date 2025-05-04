@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.suiplug-logo-3d {
+  font-size: 3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  gap: 0.1em;
+  perspective: 800px;
+  margin-bottom: 1.5rem;
+}
+
+.suiplug-logo-3d span {
+  color: #00f0ff;
+  text-shadow: 1px 1px 0 #0ff, 2px 2px 0 #0cc, 3px 3px 0 #099;
+  transform: rotateY(15deg) rotateX(5deg);
+  transition: transform 0.3s ease;
+  font-family: "Orbitron", sans-serif; /* Optional futuristic font */
+}
+
+.suiplug-logo-3d span:hover {
+  transform: rotateY(0deg) rotateX(0deg) scale(1.1);
+  color: #ffffff;
+  text-shadow: 2px 2px 10px #00f0ff;
+}
